@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bolt.svg" type="image/x-icon">
+    <title>Genius Tech - Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main class="main__container">
+        <header class="header_logo">
+            <div class="logoImg_name">
+                <a href="index.html"><img src="bolt.svg" class="logo" alt=""></a>
+                <h1 class="name-logo"><a href="index.html" class="a_name-logo">Genius Tech</a>
+            </div>
+
+            <div class="name-project">
+                <h2 class="nombre-proyecto">Digital Clock</h2>
+            </div>
+        </header>
+
+        <section class="sect_elementsRelojs">
+            <div class="horaActual">
+                <div class="horaFecha">
+                    <div class="">
+                        <p class="name">Hora</p>
+                        <h2 class="hoursSistema" data-horaActual_sistema></h2>
+                    </div>
+                    <div>
+                        <p class="name">Minutos</p>
+                        <h2 class="minutesSistema" dataMinutes></h2>
+                    </div>
+                    <div>
+                        <p class="name">Segundos</p>
+                        <h2 class="segundosActual" data-segundos_horaActual></h2>
+                    </div>
+                    <p class="infoMañanaTarde" data-tarde_mañana></p>
+                </div>
+
+                <div class="fechaActual">
+                    <p class="InfoFechaActual" data-fechaActual></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
+

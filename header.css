@@ -1,0 +1,55 @@
+
+.header_logo {
+    padding: 1rem 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color-negro);
+}
+
+.logoImg_name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+.name-logo {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.a_name-logo {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.nombre-proyecto {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+
+@media (max-width: 500px){
+    .header_logo {
+        padding: 1rem 1.2rem;
+    }   
+
+    .nombre-proyecto {
+        color: var(--color-white);
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 45px;
+    }
+    
+    .name-logo {
+        font-size: 1.7rem;
+    }
+}
