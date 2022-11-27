@@ -16,6 +16,14 @@
     gap: 1rem;
 }
 
+.goodDay {
+    display: none;
+
+    font-size: 1.2rem;
+    color: var(--color-white);
+    margin-bottom: 4rem;
+}
+
 .hoursSistema, .minutesSistema, .segundosActual {
     font-weight: 800;
     font-size: 4rem;
@@ -59,5 +67,17 @@
 
     .sect_elementsRelojs {
         margin-top: 3rem;
+    }
+
+    .goodDay {
+        display: block;
+    }
+
+    .infoMañanaTarde {
+        display: none;
+    }
+
+    .InfoFechaActual {
+        text-align: center;
     }
 }
