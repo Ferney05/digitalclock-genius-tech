@@ -16,6 +16,7 @@
 
 * {
     font-family: var(--fuente-spartan);
+    user-select: none;
 }
 
 body {
