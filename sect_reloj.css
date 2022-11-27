@@ -49,8 +49,14 @@
     margin-top: -2rem;
 }
 
+/* RESPONSIVE */
+
 @media (max-width: 500px){
     .horaActual {
         margin: 0 2rem;
+    }
+
+    .sect_elementsRelojs {
+        height: 500px;
     }
 }
