@@ -7,14 +7,15 @@ mostrandoHoraActual();
 mostrarFecha();
 verificarTiempo();
 
+const digitalClock = document.querySelector('.nombre-proyecto');
 const logo = document.querySelector('.logo');
 
 setInterval(() => {
-   logo.style = 'transform: translateX(5px);';
+   digitalClock.style = 'transform: translateX(5px);';
 }, 1000);
 
 setInterval(() => {
-    logo.style = 'transform: translateX(-5px);';
+    digitalClock.style = 'transform: translateX(-5px);';
 }, 2000);
 
 
