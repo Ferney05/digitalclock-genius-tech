@@ -9,8 +9,8 @@ export const verificarTiempo = () => {
     let jornada = hora >= 12 ? 'PM' : 'AM';
     tarde_mañana.innerHTML = jornada;
 
-    let timeGood = hora >= 12 ? 'Buenas tardes😉' : 'Buenos días😉';
-    let goodNoche = hora > 7 || hora < 11 ? 'Buenas noches😉' : 'Buenos días😉';
+    let timeGood = hora >= 12 ? 'Buenas tardes ;)' : 'Buenos días 🌤';
+    let goodNoche = hora > 19 || hora < 12 ? 'Buenas noches ☾' : 'Buenos días 🌤';
 
     goodDay.innerHTML = timeGood;
     goodDay.innerHTML = goodNoche;
